@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>CutFitters</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">CutFitters</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto my-2 my-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active"  href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" >
+                Categories
+              </a>
+              
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sale</a>
+            </li>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About Us</a>
+          </li>
+          </ul>
+          <form class="d-flex">
+            <input class="px-2 search" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn0" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+    <section class="main">
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="./images/fashion.avif" alt="Fashion" class="d-block" style="width:100%; height: 580px; object-fit: cover;">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./images/hero-iamge2.avif" alt="Fashion" class="d-block" style="width:100%; height: 580px; object-fit: cover;">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./images/hero-image.avif" alt="Fashion" class="d-block" style="width:100%; height: 580px; object-fit: cover;">
+          </div>
+        </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+      
+    </section>
+
+
+    <section class="product">
+      <div class="container py-5">
+        <div class="row py-5 ">
+          <div class="col-lg-5 m-auto text-center">
+            <h1>What's Trending</h1>
+            <h6 style="color: rgb(13, 103, 167);">Follow Latest Fashion Trends!</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 text-center">
+             
+              <div class="card border-0 bg-light mb-2">
+                <div class="card-body">
+                  <img src="./images/pants1.avif" class="img-fluid" alt="">
+                </div>
+              </div>
+
+              <h6>Dark Blue Jeans</h6>
+              <p> $39.99</p>
+
+          </div>
+
+          <div class="col-lg-3 text-center">
+             
+            <div class="card border-0 bg-light mb-2">
+              <div class="card-body">
+                <img src="./images/shirt3.avif" class="img-fluid" alt="">
+              </div>
+            </div>
+
+            <h6>Shirt</h6>
+            <p> $25.99</p>
+
+        </div>
+        <div class="col-lg-3 text-center">
+             
+          <div class="card border-0 bg-light mb-2">
+            <div class="card-body">
+              <img src="./images/shoes1.avif" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <h6>Brown Suede Shoes</h6>
+          <p> $45.99</p>
+
+      </div>
+      <div class="col-lg-3 text-center">
+             
+        <div class="card border-0 bg-light mb-2">
+          <div class="card-body">
+            <img src="./images/shirt4.avif" class="img-fluid" alt="">
+          </div>
+        </div>
+
+        <h6>Shirt</h6>
+        <p> $39.99</p>
+
+    </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 text-center m-auto">
+            <button class="btn1" onclick="document.location='./products.html'">Click For More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-white" style="background-color: rgb(13, 103, 167)">
+    <!-- Grid container -->
+    <div class="container">
+      <!-- Section: Links -->
+      <section class="mt-5">
+        <!-- Grid row-->
+        <div class="row text-center d-flex justify-content-center pt-5">
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-white">About us</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-white">Products</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-white">Awards</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-white">Help</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-white">Contact</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row-->
+      </section>
+      <!-- Section: Links -->
+
+      <hr class="my-5" />
+
+      <!-- Section: Text -->
+      <section class="mb-5">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-8">
+            <p>
+              CAN WE HELP YOU?
+              <br>
+              <br>
+                SEND EMAIL
+              <br>
+              CONTACTUS@CUTFITTERS.COM.PK
+              <br>
+              <br>
+              UAN: 042 111-11-1111
+              <br>
+              MON-FRI 9:00 TO 5:30 PST
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Section: Text -->
+      
+      <!-- Section: Social -->
+      <section class="text-center mb-5 social">
+        <div>
+          <!-- Facebook -->
+          <i class="fa fa-facebook-f"></i>
+
+          <!-- Twitter -->
+          <i class="fa fa-twitter"></i>
+
+          <!-- Google -->
+          <i class="fa fa-google"></i>
+
+          <!-- Instagram -->
+          <i class="fa fa-instagram"></i>
+
+          <!-- Linkedin -->
+          <i class="fa fa-linkedin"></i>
+
+          <!-- Pinterest -->
+          <i class="fa fa-pinterest"></i>
+      </div>
+      </section>
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2020 Copyright:
+      <a class="text-white" href="./index.html"
+         >CutFitters.com</a
+        >
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>
